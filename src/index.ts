@@ -7,7 +7,7 @@ import { Octokit } from "@octokit/core";
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 6000;
+const PORT = process.env.PORT || 8080;
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN!;
 
 app.use(express.json());
